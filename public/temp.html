@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img2/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Car Parking</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="css2/linearicons.css">
+        <link rel="stylesheet" href="css2/font-awesome.min.css">
+        <link rel="stylesheet" href="css2/bootstrap.css">
+        <link rel="stylesheet" href="css2/magnific-popup.css">
+        <link rel="stylesheet" href="css2/nice-select.css">					
+        <link rel="stylesheet" href="css2/animate.min.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">			
+        <link rel="stylesheet" href="css2/owl.carousel.css">
+        <link rel="stylesheet" href="css2/main.css">
+        <link rel="stylesheet" href="css21.css">
+    </head>
+    <body>
+
+        <header id="header" id="home">
+            <div class="container">
+                <div class="row align-items-center justify-content-between d-flex">
+                  <div id="logo">
+                    <a href="index2.html"><img src="img2/logo.png" alt="" title="" /></a>
+                  </div>
+                  <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                      <li class="menu-active"><a href="temp.html">Home</a></li>
+                      <li><a href="about2.html">About Us</a></li>
+                      <li><a href="contact2.html">Contact Us</a></li>
+                      <li><a href="profile.html">Profile</a></li>
+                      <li><a href="messages.html">Messages</a></li>
+                      <li><a href="activity.html">Activity</a></li>
+                      <li><a href="settings.html">Settings</a></li>	
+                    <form method="post" action="/logout">
+                      <li> <button class="logout">Logout</button></li>	
+                    </form>	          
+                    </ul>
+                  </nav>		    		
+                </div>
+            </div>
+           </header>
+
+        <!-- start banner Area -->
+        <section class="banner-area relative" id="home">
+            <div class="overlay overlay-bg"></div>	
+            <div class="container">
+                <div class="row fullscreen d-flex align-items-center justify-content-center">
+                    <div class="banner-content col-lg-7 col-md-6 ">
+                        <h6 class="text-white ">the Royal Essence of Journey</h6>
+                        <h1 class="text-white text-uppercase">
+                            Relaxed Journey Ever				
+                        </h1>
+                        <a href="temp.html" class="primary-btn text-uppercase">Book Your Parking </a>
+                    </div>
+                    <div class="col-lg-5  col-md-6 header-right">
+                        <h4 class="text-white pb-30">Book Parking!</h4>
+                        <form class="form" role="form" autocomplete="off" method="post" action="/confirmbooking">
+                            <div class="form-group">
+                                   <div class="default-select" id`="default-select">
+                                    <select>
+                                        <option value="" name="mallname" disabled selected hidden>Select Your City</option>
+                                        <option value="1">Hamirpur</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="default-select" id="default-select">
+                                 <select>
+                                     <option value="" name="mallname" disabled selected hidden>Select A Mall</option>
+                                     <option value="1">Antariksh Shopping Mall</option>
+                                 </select>
+                             </div>
+                         </div>
+                            <div class="form-group row">
+                                <div class="col-md-6 wrap-left">
+                                    <div class="input-group dates-wrap">                                          
+                                        <input name="entrydate" id="datepicker" class="dates form-control" id="exampleAmount" placeholder="Entry Date" type="text">                        
+                                        <div class="input-group-prepend">
+                                            <span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
+                                        </div>											
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wrap-right">
+                                    <div class="input-group dates-wrap">                                          
+                                        <input name="entrytime" id="datepicker" class="dates form-control" id="exampleAmount" placeholder="Entry Time" type="text">                        
+                                        <div class="input-group-prepend">
+                                            <span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
+                                        </div>											
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-6 wrap-left">
+                                    <div class="input-group dates-wrap">                                              
+                                        <input  name="exitdate" id="datepicker2" class="dates form-control" id="exampleAmount" placeholder="Expected Exit Date" type="text">                        
+                                        <div class="input-group-prepend">
+                                            <span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
+                                        </div>											
+                                    </div>
+                                </div>
+                                <div class="col-md-6 wrap-right">
+                                    <div class="input-group dates-wrap">                                              
+                                        <input  name="exittime" id="datepicker2" class="dates form-control" id="exampleAmount" placeholder="Expected Exit Time" type="text">                        
+                                        <div class="input-group-prepend">
+                                            <span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
+                                        </div>											
+                                    </div>
+                                </div>
+                            </div>				
+            <input class="form-control" name="email_1" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <button type="submit" id ="chirag" class="btn btn-default btn-lg btn-block text-center text-uppercase">Confirm Booking</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>											
+                </div>
+            </div>					
+        </section>
+        <!-- End banner Area -->	
+
+        <!-- Start feature Area -->
+        <section class="feature-area section-gap" id="service">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 pb-40 header-text">
+                        <h1>What Services we offer to our clients</h1>
+                        <p>
+                            Who are in extremely love with eco friendly system.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature">
+                            <h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature">
+                            <h4><span class="lnr lnr-license"></span>Professional Service</h4>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature">
+                            <h4><span class="lnr lnr-phone"></span>Great Support</h4>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature">
+                            <h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                            </p>				
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature">
+                            <h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                            </p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature">
+                            <h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
+                            <p>
+                                Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                            </p>									
+                        </div>
+                    </div>						
+                </div>
+            </div>	
+        </section>
+        <!-- End feature Area -->		
+
+       <!-- Start callaction Area -->
+        <section class="callaction-area relative section-gap">
+            <div class="overlay overlay-bg"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <h1 class="text-white">Experience Great Support</h1>
+                        
+                        <a class="callaction-btn text-uppercase" href="#">Reach Our Support Team</a>	
+                    </div>
+                </div>
+            </div>	
+        </section>
+        <!-- End callaction Area -->
+
+        <!-- start footer Area -->		
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Quick links</h6>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>								
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Features</h6>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>								
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Resources</h6>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>								
+                        </div>
+                    </div>												
+                    <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                        <div class="single-footer-widget">
+                            <h6>Follow Us</h6>
+                            <p>Let us be social</p>
+                            <div class="footer-social d-flex align-items-center">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>							
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Newsletter</h6>
+                            <p>Stay update with our latest</p>
+                            <div class="" id="mc_embed_signup">
+                                <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+                                    <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                        <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
+                                        <div style="position: absolute; left: -5000px;">
+                                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                        </div>
+
+                                    <div class="info"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>	
+                    <p class="mt-50 mx-auto footer-text col-lg-12">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved .</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>											
+                </div>
+            </div>
+        </footer>	
+        <!-- End footer Area -->		
+
+        <script src="js2/vendor/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js2/vendor/bootstrap.min.js"></script>			
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>			
+          <script src="js2/easing.min.js"></script>			
+        <script src="js2/hoverIntent.js"></script>
+        <script src="js2/superfish.min.js"></script>	
+        <script src="js2/jquery.ajaxchimp.min.js"></script>
+        <script src="js2/jquery.magnific-popup.min.js"></script>	
+        <script src="js2/owl.carousel.min.js"></script>			
+        <script src="js2/jquery.sticky.js"></script>
+        <script src="js2/jquery.nice-select.min.js"></script>	
+        <script src="js2/waypoints.min.js"></script>
+        <script src="js2/jquery.counterup.min.js"></script>					
+        <script src="js2/parallax.min.js"></script>		
+        <script src="js2/mail-script.js"></script>	
+        <script src="js2/main.js"></script>	
+        <script src="chi/chi1.js"></script>	
+    </body>
+</html>
+
+
+
